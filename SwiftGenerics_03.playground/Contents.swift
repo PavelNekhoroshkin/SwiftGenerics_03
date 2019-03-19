@@ -76,9 +76,10 @@ enum EnumQueue<T>{
 }
 
 
+
 var eq = EnumQueue<String>.End
 
-for i in 0...4{
+for i in 0...3{
     eq.add(String(i))
 }
 print(eq)
